@@ -355,4 +355,8 @@ singlePartitionResult.write()
         # ...
         return send_file("static/hot_streets.csv", as_attachment=True)
 ```
-<video src="vie.mp4"></video>
+
+
+https://github.com/user-attachments/assets/ce7cbb5d-c44f-4218-9793-93813ef36810
+
+
