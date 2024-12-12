@@ -6,9 +6,9 @@
 
 本项目旨在处理纽约市交通数据，通过 Apache Spark 进行大规模数据处理、使用深度学习模型进行交通预测，并通过 Web 界面进行可视化展示。项目分为三个主要模块：
 
-- == 预测（Predict）==：基于 D2STGNN（Decoupled Dynamic Spatial-Temporal Graph Neural Network）模型进行交通流量预测。
-- == 数据处理（DataProcess）==：使用 Apache Spark 和 Apache Sedona 对原始交通数据进行清洗、预处理，并构建交通路网图。
-- == 前端展示（Frontend）==：通过 Web 界面展示交通流量数据和预测结果，用户可以查看热力图及切换实际与预测数据。
+- **预测（Predict）**：基于 D2STGNN（Decoupled Dynamic Spatial-Temporal Graph Neural Network）模型进行交通流量预测。
+- **数据处理（DataProcess）**：使用 Apache Spark 和 Apache Sedona 对原始交通数据进行清洗、预处理，并构建交通路网图。
+- **前端展示（Frontend）**：通过 Web 界面展示交通流量数据和预测结果，用户可以查看热力图及切换实际与预测数据。
 
 
 ## 项目结构
@@ -355,5 +355,4 @@ singlePartitionResult.write()
         # ...
         return send_file("static/hot_streets.csv", as_attachment=True)
 ```
-
 
