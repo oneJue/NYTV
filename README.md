@@ -1,4 +1,7 @@
-<img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Apache_Spark_logo.svg" alt="Apache Spark Icon" width="600">
+<div style="text-align: center;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Apache_Spark_logo.svg" alt="Apache Spark Icon" width="600">
+</div>
+
 
 # :dizzy:Spark处理纽约市交通流量信息-预测与热力地图可视化
 
